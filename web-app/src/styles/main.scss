@@ -1,0 +1,48 @@
+.App {
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-image: url(../images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 2rem;
+
+.card {
+  max-width: 70%;
+  background-color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 20px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.home-button {
+  padding: 10px 20px;
+}
+
+
+  &-title h1 {
+    text-align: center;
+  }
+
+  &-control {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+}
